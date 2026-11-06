@@ -10,12 +10,12 @@ Se retiró el formulario completo y su componente JavaScript. La sección de con
 | Formulario | Cero elementos `form`, `input`, `textarea` y `select` en el HTML y en la página cargada. |
 | Código retirado | Sin `ContactForm.js`, importación, inicialización ni atributos `data-select-package`. |
 | Recursos y navegación | Anclas válidas, IDs únicos y archivos locales existentes. |
-| Contacto | Enlaces `tel:`, `mailto:` y Google Maps conservados. |
+| Contacto | Cotiza tu evento y LLÁMANOS enlazan a https://wa.me/528332065451; correo y Google Maps conservados. |
 | Menú móvil | Icono de 32 px con líneas de 14 px y área táctil de 44 × 44 px. Apertura y cierre con Escape comprobados. |
-| Responsive | Revisión en Chromium a 320, 390, 768 y 1440 px; sin desbordamiento horizontal. |
+| Responsive | Revisión en Chromium a 320, 390, 768, 1024 y 1440 px; sin desbordamiento horizontal. |
 | Revisión visual | Contacto sin formulario e icono compacto comprobados en móvil. |
 
-La salida de producción ocupa 580,432 bytes. El ZIP contiene código fuente, recursos y `dist/` regenerado, sin `node_modules`.
+Tipografía actualizada a Playfair Display y DM Sans, alojadas localmente con sus licencias. Textos ampliados también en móvil. Flechas SVG independientes de las fuentes. El ZIP contiene código fuente, recursos y `dist/` regenerado, sin `node_modules`.
 
 ## Comprobaciones conservadas de la entrega inicial
 

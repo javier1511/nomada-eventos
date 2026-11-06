@@ -58,7 +58,7 @@ Documentación oficial: [workflows para GitHub Pages](https://docs.github.com/en
 | `src/index.html` | Contenido, secciones, paquetes y estructura semántica. |
 | `src/index.js` | Inicializa los componentes del sitio. |
 | `src/styles/main.css` | Diseño, estados interactivos y reglas responsivas. |
-| `src/config/site.cjs` | Teléfono, correo y dirección. |
+| `src/config/site.cjs` | Teléfono, WhatsApp, correo y dirección. |
 | `src/components/Navigation.js` | Menú móvil, cierre con Escape y navegación. |
 | `src/components/PackageTabs.js` | Paquetes con pestañas y control por teclado. |
 | `src/components/Gallery.js` | Visor de fotos, flechas, cierre y retorno del foco. |
@@ -76,11 +76,13 @@ Documentación oficial: [workflows para GitHub Pages](https://docs.github.com/en
 
 ## Contacto directo
 
-La sección de contacto ofrece enlaces para llamar, abrir el correo y consultar la ubicación. No hay formulario, campos de captura ni componente `ContactForm`. Los botones de consulta de paquetes llevan a esta sección.
+La sección de contacto ofrece enlaces para abrir WhatsApp, el correo y consultar la ubicación. “Cotiza tu evento” del encabezado y “Llámanos · 833 206 5451” abren WhatsApp al mismo número. No hay formulario, campos de captura ni componente `ContactForm`. Los botones de consulta de paquetes llevan a esta sección.
 
 El correo se abre en la aplicación del visitante. El sitio no recibe ni almacena datos y no necesita backend.
 
 ## Diseño y compatibilidad
+
+Títulos en Playfair Display y textos en DM Sans, con tamaños aumentados para escritorio y móvil. Las fuentes WOFF2 están incluidas y sus licencias se encuentran en `src/assets/fonts/`.
 
 - Adaptación para móvil, tablet y escritorio, con puntos de ajuste a 360, 650, 900 y 1100 px.
 - Icono de menú móvil más compacto: marco de 32 px y líneas de 14 px, con un área táctil de 44 × 44 px.

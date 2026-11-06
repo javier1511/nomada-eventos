@@ -9,6 +9,8 @@ module.exports = {
   subtitle: "Buffet y Salón de Eventos",
   phoneDisplay: "833 206 5451",
   phoneInternational: "+528332065451",
+  // WhatsApp utiliza el código de país sin signo + ni espacios.
+  whatsappUrl: "https://wa.me/528332065451",
   email: "nomadabuffet2026@gmail.com",
   address: "Av. Hidalgo #6806, Col. Arenal, Tampico, Tamaulipas",
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=Av.%20Hidalgo%206806%2C%20Arenal%2C%20Tampico%2C%20Tamaulipas"
